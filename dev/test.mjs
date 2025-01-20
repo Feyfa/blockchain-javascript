@@ -2,8 +2,17 @@ import Blockchain from "./blockchain.mjs";
 
 const bitcoin = new Blockchain();
 
-bitcoin.createNewBlock(2389, 'HKJVSBWWAKJ', 'KJSBNJSW876');
-bitcoin.createNewBlock(111, 'KJBKJBKJBBKJ', 'UIYUIYIUY');
-bitcoin.createNewBlock(3245, 'QWECFD^6465', 'UHGUIJH65');
+// Tambang Block Dan Buat Transaction
+bitcoin.createNewBlock(892348, 'ASDFGH', 'QWERTY');
+bitcoin.createNewTransaction(100, 'JED12345', 'FEYFA123456');
+
+// Tambang Block Dan Buat Transaction
+bitcoin.createNewBlock(123123, 'JLKNSWDD', 'PQSDDHJ');
+bitcoin.createNewTransaction(10, 'JED12345', 'FEYFA123456');
+bitcoin.createNewTransaction(20, 'JED12345', 'FEYFA123456');
+bitcoin.createNewTransaction(50, 'JED12345', 'FEYFA123456');
+
+// Tambang Block Dan Buat Transaction
+bitcoin.createNewBlock(1243531, 'ASfahgs127', 'AHJKBAHKBV7');
 
 console.log(bitcoin);
