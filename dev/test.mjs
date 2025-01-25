@@ -22,28 +22,35 @@ const bitcoin = new Blockchain();
 
 
 /* --------------------------------------------- */
-const previousBlockHash = 'KSA1231SAQWKDLSSA';
-const currentBlockData = [
-    {
-        amount: 10,
-        sender: 'JHKSKJHS778A',
-        recipient: 'KJHKV786HJKV'
-    },
-    {
-        amount: 30,
-        sender: 'JHKSKJHS778',
-        recipient: 'NCVNCBS918'
-    },
-    {
-        amount: 50,
-        sender: 'ASWWEQEQW33541',
-        recipient: 'MUHYHGTGATA515'
-    },
-];
+// const previousBlockHash = 'KSA1231SAQWKDLSSA';
+// const currentBlockData = [
+//     {
+//         amount: 10,
+//         sender: 'JHKSKJHS778A',
+//         recipient: 'KJHKV786HJKV'
+//     },
+//     {
+//         amount: 30,
+//         sender: 'JHKSKJHS778',
+//         recipient: 'NCVNCBS918'
+//     },
+//     {
+//         amount: 50,
+//         sender: 'ASWWEQEQW33541',
+//         recipient: 'MUHYHGTGATA515'
+//     },
+// ];
 
-// process untuk match 4 character di awal hash
-console.log(bitcoin.proofOfWork(previousBlockHash, currentBlockData));
+// // process untuk match 4 character di awal hash
+// console.log(bitcoin.proofOfWork(previousBlockHash, currentBlockData));
 
-// pembuktian dengan nonce jika proofOfWork berhasil dengan nonce yang dihasilkan
-// console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, 31374));
+// // pembuktian dengan nonce jika proofOfWork berhasil dengan nonce yang dihasilkan
+// // console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, 31374));
 /* --------------------------------------------- */
+
+
+
+/* --------------------------------------------- */
+console.log(bitcoin);
+/* --------------------------------------------- */
+

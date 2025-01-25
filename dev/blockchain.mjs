@@ -3,6 +3,8 @@ import sha256 from "sha256";
 function Blockchain() {
     this.chain = [];
     this.pendingTransaction = [];
+
+    this.createNewBlock(100, '0', '0');
 }
 
 Blockchain.prototype.createNewBlock = function (nonce, previousBlockHash, hash) {
